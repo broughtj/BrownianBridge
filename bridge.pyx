@@ -13,7 +13,7 @@ cdef double[::1] WienerBridge(int nsteps, double T, double endval):
     cdef int limit = 0
     cdef double a = 0.0
     cdef double b = 0.0
-    cdef i, j
+    cdef int i, j
 
     for i in range(num_bisect):
         left = 0
